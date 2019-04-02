@@ -8,3 +8,4 @@ downloaders:
     - "gitlab"
     - "github"
     - "bitbucket"
+    - "bitbucket-https"
