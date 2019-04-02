@@ -18,7 +18,7 @@ git init --quiet
 if [ "bitbucket" = $PROVIDER ]; then
   git remote add origin git@bitbucket.org:$REPO.git
 elif [ "bitbucket-https" = $PROVIDER ]; then
-  git remote add origin https://bitbucket.org:$REPO.git
+  git remote add origin https://bitbucket.org/$REPO.git
 else
   git remote add origin git@$PROVIDER.com:$REPO.git
 fi
