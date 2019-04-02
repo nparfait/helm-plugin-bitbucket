@@ -1,0 +1,10 @@
+name: "helm-bitbucket"
+version: "1.0.0"
+description: |-
+  Let's you use private gitlab repositories easily
+downloaders:
+- command: "getfile.sh"
+  protocols:
+    - "gitlab"
+    - "github"
+    - "bitbucket"
