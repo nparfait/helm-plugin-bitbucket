@@ -6,6 +6,8 @@ downloaders:
 - command: "getfile.sh"
   protocols:
     - "gitlab"
+    - "gitlab-https"
     - "github"
+    - "github-https"
     - "bitbucket"
     - "bitbucket-https"
